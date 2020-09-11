@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/all/index",
+    "pages/notice/index",
+    "pages/gov/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -9,6 +12,31 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
+  "tabBar": {
+    "selectedColor": "#fff",
+    "color": "#deb",
+    "backgroundColor": "#2d78ed",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/all/index",
+      "text": "所有",
+      "iconPath": "assets/all.png",
+      "selectedIconPath": "assets/all-selected.png"
+    },{
+      "pagePath": "pages/notice/index",
+      "text": "关注",
+      "iconPath": "assets/notice.png",
+      "selectedIconPath": "assets/notice-selected.png"
+    },{
+      "pagePath": "pages/gov/index",
+      "text": "厅局",
+      "iconPath": "assets/org.png",
+      "selectedIconPath": "assets/org-selected.png"
+    }]
+  },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
 }
