@@ -1,0 +1,9 @@
+<view>
+  <mp-cells ext-class="project-detail-cells" title="基本信息">
+    <mp-cell value="项目名称" footer="说明文字"></mp-cell>
+    <mp-cell>
+        <view>标题文字（使用slot）</view>
+        <view slot="footer">说明文字</view>
+    </mp-cell>
+  </mp-cells>
+</view>

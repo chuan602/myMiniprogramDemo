@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="c-list-item">
   <view class="c-list-item__main">
-    <view class="c-list-item__main-content"></view>
-    <view class="c-list-item__main-tag"></view>
+    <view class="c-list-item__main-content">{{ content }}</view>
+    <text class="c-list-item__main-tag">{{ department }}</text>
   </view>
-  <view class="c-list-item__extra"></view>
+  <view class="c-list-item__extra">{{ extra }}</view>
 </view>

@@ -1,4 +1,9 @@
 //app.js
+import { promisifyAll } from 'miniprogram-api-promise';
+
+// promisify all wx's api
+promisifyAll(wx, {})
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
